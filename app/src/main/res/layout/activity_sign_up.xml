@@ -4,75 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SignUp">
+    tools:context=".registration.SignUpAndReg">
 
-    <TextView
-        android:id="@+id/textView3"
+
+    <FrameLayout
+        android:id="@+id/frameframe"
         android:layout_width="match_parent"
-        android:layout_height="97dp"
-        android:layout_marginTop="200dp"
-        android:gravity="center"
-        android:text="Название"
-        android:textStyle="bold"
-        android:textColor="@color/green"
-        android:textSize="40dp" />
+        android:layout_height="match_parent">
 
-    <EditText
-        android:id="@+id/editTextTextEmailAddress"
-        android:layout_width="372dp"
-        android:layout_height="59dp"
-        android:layout_below="@id/textView3"
-        android:layout_marginLeft="22dp"
-        android:layout_marginTop="0dp"
-        android:background="@drawable/textplain"
-        android:ems="10"
-        android:hint="Email"
-        android:inputType="textEmailAddress"
-        android:textAlignment="center"
-        android:textColorHint="@color/green" />
-
-    <EditText
-        android:id="@+id/editTextTextPassword"
-        android:layout_width="372dp"
-        android:layout_height="59dp"
-        android:layout_below="@+id/editTextTextEmailAddress"
-        android:layout_marginLeft="22dp"
-        android:layout_marginTop="15dp"
-        android:background="@drawable/textplain"
-        android:ems="10"
-        android:hint="Password"
-        android:inputType="textPassword"
-        android:textAlignment="center"
-        android:textColorHint="@color/green" />
-
-    <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="match_parent"
-        android:layout_height="104dp"
-        android:layout_marginTop="110dp"
-        app:srcCompat="@drawable/ic_android_black_24dp" />
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="372dp"
-        android:layout_height="59dp"
-        android:layout_below="@+id/editTextTextPassword"
-        android:layout_marginLeft="22dp"
-        android:layout_marginTop="50dp"
-        android:background="@drawable/butreg"
-        android:onClick="succeed"
-        android:text="Войти"
-        android:textColor="@color/white" />
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="372dp"
-        android:onClick="reg"
-        android:layout_height="59dp"
-        android:layout_below="@+id/button2"
-        android:layout_marginLeft="22dp"
-        android:layout_marginTop="15dp"
-        android:background="@drawable/secondbutton"
-        android:text="Зарегестрироваться"
-        android:textColor="@color/green" />
+    </FrameLayout>
 </RelativeLayout>

@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.Fragment
+import com.example.alpha.registration.SignUpAndReg
 import kotlinx.android.synthetic.main.activity_main.*
 
 class ActivityFirst : AppCompatActivity() {
@@ -43,7 +44,7 @@ class ActivityFirst : AppCompatActivity() {
 
     }
     fun sSign(view: View){
-        val intent = Intent(this@ActivityFirst, SignUp::class.java)
+        val intent = Intent(this@ActivityFirst, SignUpAndReg::class.java)
         startActivity(intent)
     }
 

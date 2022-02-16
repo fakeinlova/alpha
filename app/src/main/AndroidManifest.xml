@@ -20,10 +20,10 @@
             android:label="@string/title_activity_main"
             android:theme="@style/Theme.Alpha.NoActionBar" />
         <activity
-            android:name=".Registration"
+            android:name=".registration.Registration"
             android:exported="false" />
         <activity
-            android:name=".SignUp"
+            android:name=".registration.SignUpAndReg"
             android:exported="false" />
         <activity
             android:name=".SplashScreen"
